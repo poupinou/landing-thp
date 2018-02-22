@@ -13,6 +13,9 @@
  *= require_tree .
  *= require_self
  */
+.container-fluid {
+}
+
 
 .logo {
   text-align: center;
@@ -57,7 +60,7 @@
 
  #main-box-right {
    margin-top: 550px;
-   background-color: rgba(221, 221, 221, 0.15);
+   background-color: rgba(176, 215, 218, 0.15);
    padding: 10px;
    border-radius: 10px 10px 10px 10px;
  }
@@ -76,14 +79,17 @@
   justify-content: space-around;
   align-items: center;
   margin-top: 3%;
-
-
 }
 
 .item {
-  width: 300px;
+  width: auto;
   height: auto;
   border-radius: 5px 5px 5px 5px;
-  background-color: rgba(221, 221, 221, 0.3);
-  padding-top: 20px;
+  background-color: rgba(176, 215, 218, 0.2);
+  padding: 10px;
+}
+
+.sub-title {
+  font-size: 1.5em;
+  font-weight: 400;
 }
