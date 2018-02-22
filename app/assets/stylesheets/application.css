@@ -93,3 +93,14 @@
   font-size: 1.5em;
   font-weight: 400;
 }
+
+.footer {
+  width: 600px;
+  height: auto;
+  margin: 50px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  border-radius: 5px 5px 5px 5px;
+  align-items: center;
+  padding-bottom: 10px;
+}
