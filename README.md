@@ -1,24 +1,16 @@
-# README
+# LANDING PAGE THP
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* But de l'exercice : Réaliser une ou plusieurs landing pour THP et générer de l'acquisition.
 
-Things you may want to cover:
 
-* Ruby version
+* Live on heroku : http://join-thp.herokuapp.com
 
-* System dependencies
 
-* Configuration
+* Deux landing pages sont présentes. Elles s'affichent de façon aléatoire :
+  * une page blanche toute simple (enlever "index" dans l'url pour revenir charger à nouveau)
+  * une seconde landing avec image d'arrière plan notamment
 
-* Database creation
 
-* Database initialization
+## Design
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Landing avec background image
