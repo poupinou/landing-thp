@@ -10,11 +10,9 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
- *= require_tree .
- *= require_self
+
+
  */
-.container-fluid {
-}
 
 
 .logo {
@@ -31,65 +29,27 @@
   height: 100%;
 
   background: url('bg.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 
   color: white;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
  }
 
-.text-imp {
-  background-color: white;
-  color: black;
-  padding: 10px;
+.main-left {
 }
 
- .main-box {
-   height: 800px;
- }
+#learn {
+  width: auto;
+  height: 800px;
+  font-size: 2em;
+  text-align: center;
+  padding-top: 15%;
+}
 
- #main-box-left {
-   text-align: center;
-   font-size: 2em;
-   margin-top: 50%;
- }
-
- #main-box-right {
-   margin-top: 550px;
-   background-color: rgba(176, 215, 218, 0.15);
-   padding: 10px;
-   border-radius: 10px 10px 10px 10px;
- }
+#cta-1 {
+  text-align: center;
+  padding-top: 15%;
+}
 
 .main-2 {
   text-align: center;
-}
-
-#title-2 {
-  padding-top: 3%;
-  font-size: 2em;
-}
-
-.item-box {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 3%;
-}
-
-.item {
-  width: auto;
-  height: auto;
-  border-radius: 5px 5px 5px 5px;
-  background-color: rgba(176, 215, 218, 0.2);
-  padding: 10px;
-}
-
-.sub-title {
-  font-size: 1.5em;
-  font-weight: 400;
 }
