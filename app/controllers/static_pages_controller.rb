@@ -1,6 +1,7 @@
 class StaticPagesController < ApplicationController
   def index
-  	prng = Random.new
+ 
+ 		prng = Random.new
 		if prng.rand(100) >= 50
 			redirect_to home2_path
 		end
