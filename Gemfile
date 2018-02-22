@@ -12,6 +12,8 @@ gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
+gem 'bootstrap'
+gem 'google-api-client', '~> 0.11'
 
 group :development, :test do
   gem 'sqlite3'
